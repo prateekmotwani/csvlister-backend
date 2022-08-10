@@ -12,7 +12,7 @@ import javax.persistence.*;
 @Table(name = "name_links")
 public class LinkNameEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.SEQUENCE)
     @Column(name = "id")
     private Long id;
     @Setter
