@@ -1,5 +1,32 @@
 # Getting Started
 
+### Project Use
+
+1) Spring Boot with Maven
+2) Open CSV for loading CSV file
+3) Restful Service
+4) H2 as in memory Database
+5) Junit and Mockito for test cases (implementation  purposely left)
+6) Flyway for the db script migration
+7) Spring Events to load the data once in the db
+
+Project can be started and main url which returns the data and consumed by UI
+
+http://localhost:8080/csvdata
+
+
+### UI project 
+
+npm install 
+npm start 
+commands are needed to the env run at
+http://localhost:3000
+
+It loads the react table and perform axios call to the backend using proxy
+
+
+
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
@@ -16,4 +43,9 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+
+
+
+
+
 
