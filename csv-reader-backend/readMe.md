@@ -17,7 +17,7 @@ http://localhost:8080/csvdata
 
 ### UI project 
 
-npm install 
+npm install --force
 npm start 
 commands are needed to the env run at
 http://localhost:3000
